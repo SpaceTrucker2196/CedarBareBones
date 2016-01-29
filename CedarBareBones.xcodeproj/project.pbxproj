@@ -1,0 +1,699 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BB084ECDE6DA365F07BFF90 /* libPods-CedarBareBonesTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FADF7F9E52A47E006D5979D9 /* libPods-CedarBareBonesTests.a */; };
+		84C9D113A5B5F59424D28F12 /* libPods-CedarBareBones.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 74967FF79BA5A2490D0D0324 /* libPods-CedarBareBones.a */; };
+		B13E1FE0CB350D558DA8ADFB /* libPods-CedarBareBonesUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB869B2D056A61A81C2B69C9 /* libPods-CedarBareBonesUITests.a */; };
+		EE2AAEF81C58676900B9D24A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2AAEF71C58676900B9D24A /* main.m */; };
+		EE2AAEFB1C58676900B9D24A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2AAEFA1C58676900B9D24A /* AppDelegate.m */; };
+		EE2AAEFE1C58676900B9D24A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EE2AAEFD1C58676900B9D24A /* ViewController.m */; };
+		EE2AAF011C58676900B9D24A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2AAEFF1C58676900B9D24A /* Main.storyboard */; };
+		EE2AAF031C58676900B9D24A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE2AAF021C58676900B9D24A /* Assets.xcassets */; };
+		EE2AAF061C58676900B9D24A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE2AAF041C58676900B9D24A /* LaunchScreen.storyboard */; };
+		EE2AAF301C586B7500B9D24A /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE2AAF2F1C586B7500B9D24A /* AppDelegateSpec.mm */; };
+		EE2AAF311C586B7500B9D24A /* AppDelegateSpec.mm in Sources */ = {isa = PBXBuildFile; fileRef = EE2AAF2F1C586B7500B9D24A /* AppDelegateSpec.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE2AAF0D1C58676900B9D24A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2AAEEB1C58676900B9D24A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2AAEF21C58676900B9D24A;
+			remoteInfo = CedarBareBones;
+		};
+		EE2AAF181C58676900B9D24A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE2AAEEB1C58676900B9D24A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2AAEF21C58676900B9D24A;
+			remoteInfo = CedarBareBones;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		26F041EC421DACC1C026E0B0 /* Pods-CedarBareBones.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CedarBareBones.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CedarBareBones/Pods-CedarBareBones.debug.xcconfig"; sourceTree = "<group>"; };
+		33B9397D44D83873EB5A67C6 /* Pods-CedarBareBonesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CedarBareBonesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CedarBareBonesUITests/Pods-CedarBareBonesUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		572F06B8C57BB89E78778ECB /* Pods-CedarBareBonesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CedarBareBonesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CedarBareBonesTests/Pods-CedarBareBonesTests.debug.xcconfig"; sourceTree = "<group>"; };
+		74967FF79BA5A2490D0D0324 /* libPods-CedarBareBones.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CedarBareBones.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0D09509AA8E1B51B0F0D187 /* Pods-CedarBareBones.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CedarBareBones.release.xcconfig"; path = "Pods/Target Support Files/Pods-CedarBareBones/Pods-CedarBareBones.release.xcconfig"; sourceTree = "<group>"; };
+		A381C82E0D3943B0E14D820B /* Pods-CedarBareBonesUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CedarBareBonesUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CedarBareBonesUITests/Pods-CedarBareBonesUITests.release.xcconfig"; sourceTree = "<group>"; };
+		B6B26B8D4884205D68933173 /* Pods-CedarBareBonesTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CedarBareBonesTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CedarBareBonesTests/Pods-CedarBareBonesTests.release.xcconfig"; sourceTree = "<group>"; };
+		CB869B2D056A61A81C2B69C9 /* libPods-CedarBareBonesUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CedarBareBonesUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2AAEF31C58676900B9D24A /* CedarBareBones.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CedarBareBones.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2AAEF71C58676900B9D24A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EE2AAEF91C58676900B9D24A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EE2AAEFA1C58676900B9D24A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EE2AAEFC1C58676900B9D24A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EE2AAEFD1C58676900B9D24A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EE2AAF001C58676900B9D24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE2AAF021C58676900B9D24A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE2AAF051C58676900B9D24A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE2AAF071C58676900B9D24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2AAF0C1C58676900B9D24A /* CedarBareBonesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CedarBareBonesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2AAF121C58676900B9D24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2AAF171C58676900B9D24A /* CedarBareBonesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CedarBareBonesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE2AAF1D1C58676900B9D24A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE2AAF2F1C586B7500B9D24A /* AppDelegateSpec.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateSpec.mm; sourceTree = "<group>"; };
+		FADF7F9E52A47E006D5979D9 /* libPods-CedarBareBonesTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CedarBareBonesTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE2AAEF01C58676900B9D24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84C9D113A5B5F59424D28F12 /* libPods-CedarBareBones.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2AAF091C58676900B9D24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BB084ECDE6DA365F07BFF90 /* libPods-CedarBareBonesTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2AAF141C58676900B9D24A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B13E1FE0CB350D558DA8ADFB /* libPods-CedarBareBonesUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C215AE87A4A4D2AC3DD3F20 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74967FF79BA5A2490D0D0324 /* libPods-CedarBareBones.a */,
+				FADF7F9E52A47E006D5979D9 /* libPods-CedarBareBonesTests.a */,
+				CB869B2D056A61A81C2B69C9 /* libPods-CedarBareBonesUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EBC5B9EA6DA064F99BD9EB8E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				26F041EC421DACC1C026E0B0 /* Pods-CedarBareBones.debug.xcconfig */,
+				A0D09509AA8E1B51B0F0D187 /* Pods-CedarBareBones.release.xcconfig */,
+				572F06B8C57BB89E78778ECB /* Pods-CedarBareBonesTests.debug.xcconfig */,
+				B6B26B8D4884205D68933173 /* Pods-CedarBareBonesTests.release.xcconfig */,
+				33B9397D44D83873EB5A67C6 /* Pods-CedarBareBonesUITests.debug.xcconfig */,
+				A381C82E0D3943B0E14D820B /* Pods-CedarBareBonesUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		EE2AAEEA1C58676900B9D24A = {
+			isa = PBXGroup;
+			children = (
+				EE2AAEF51C58676900B9D24A /* CedarBareBones */,
+				EE2AAF0F1C58676900B9D24A /* CedarBareBonesTests */,
+				EE2AAF1A1C58676900B9D24A /* CedarBareBonesUITests */,
+				EE2AAEF41C58676900B9D24A /* Products */,
+				EBC5B9EA6DA064F99BD9EB8E /* Pods */,
+				4C215AE87A4A4D2AC3DD3F20 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		EE2AAEF41C58676900B9D24A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE2AAEF31C58676900B9D24A /* CedarBareBones.app */,
+				EE2AAF0C1C58676900B9D24A /* CedarBareBonesTests.xctest */,
+				EE2AAF171C58676900B9D24A /* CedarBareBonesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE2AAEF51C58676900B9D24A /* CedarBareBones */ = {
+			isa = PBXGroup;
+			children = (
+				EE2AAEF91C58676900B9D24A /* AppDelegate.h */,
+				EE2AAEFA1C58676900B9D24A /* AppDelegate.m */,
+				EE2AAEFC1C58676900B9D24A /* ViewController.h */,
+				EE2AAEFD1C58676900B9D24A /* ViewController.m */,
+				EE2AAEFF1C58676900B9D24A /* Main.storyboard */,
+				EE2AAF021C58676900B9D24A /* Assets.xcassets */,
+				EE2AAF041C58676900B9D24A /* LaunchScreen.storyboard */,
+				EE2AAF071C58676900B9D24A /* Info.plist */,
+				EE2AAEF61C58676900B9D24A /* Supporting Files */,
+			);
+			path = CedarBareBones;
+			sourceTree = "<group>";
+		};
+		EE2AAEF61C58676900B9D24A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EE2AAEF71C58676900B9D24A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EE2AAF0F1C58676900B9D24A /* CedarBareBonesTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2AAF2F1C586B7500B9D24A /* AppDelegateSpec.mm */,
+				EE2AAF121C58676900B9D24A /* Info.plist */,
+			);
+			path = CedarBareBonesTests;
+			sourceTree = "<group>";
+		};
+		EE2AAF1A1C58676900B9D24A /* CedarBareBonesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE2AAF1D1C58676900B9D24A /* Info.plist */,
+			);
+			path = CedarBareBonesUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE2AAEF21C58676900B9D24A /* CedarBareBones */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2AAF201C58676900B9D24A /* Build configuration list for PBXNativeTarget "CedarBareBones" */;
+			buildPhases = (
+				1C0E632B4A78D9CACE26D06B /* Check Pods Manifest.lock */,
+				EE2AAEEF1C58676900B9D24A /* Sources */,
+				EE2AAEF01C58676900B9D24A /* Frameworks */,
+				EE2AAEF11C58676900B9D24A /* Resources */,
+				01CEDA0F95EDBE7791BE0BDB /* Embed Pods Frameworks */,
+				C7ADDE318DAE3E75850C4CE7 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CedarBareBones;
+			productName = CedarBareBones;
+			productReference = EE2AAEF31C58676900B9D24A /* CedarBareBones.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE2AAF0B1C58676900B9D24A /* CedarBareBonesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2AAF231C58676900B9D24A /* Build configuration list for PBXNativeTarget "CedarBareBonesTests" */;
+			buildPhases = (
+				32F969FA8B3A6784399DC969 /* Check Pods Manifest.lock */,
+				EE2AAF081C58676900B9D24A /* Sources */,
+				EE2AAF091C58676900B9D24A /* Frameworks */,
+				EE2AAF0A1C58676900B9D24A /* Resources */,
+				6EFA9427F4EAAD2C6A83C7C5 /* Embed Pods Frameworks */,
+				8E32B71A7E9FD1BCC03433A3 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2AAF0E1C58676900B9D24A /* PBXTargetDependency */,
+			);
+			name = CedarBareBonesTests;
+			productName = CedarBareBonesTests;
+			productReference = EE2AAF0C1C58676900B9D24A /* CedarBareBonesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE2AAF161C58676900B9D24A /* CedarBareBonesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE2AAF261C58676900B9D24A /* Build configuration list for PBXNativeTarget "CedarBareBonesUITests" */;
+			buildPhases = (
+				B3C3E8BF89E9AADAA347CFC3 /* Check Pods Manifest.lock */,
+				EE2AAF131C58676900B9D24A /* Sources */,
+				EE2AAF141C58676900B9D24A /* Frameworks */,
+				EE2AAF151C58676900B9D24A /* Resources */,
+				BA5EE79DB6E23B990E76E6F1 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE2AAF191C58676900B9D24A /* PBXTargetDependency */,
+			);
+			name = CedarBareBonesUITests;
+			productName = CedarBareBonesUITests;
+			productReference = EE2AAF171C58676900B9D24A /* CedarBareBonesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE2AAEEB1C58676900B9D24A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = River.io;
+				TargetAttributes = {
+					EE2AAEF21C58676900B9D24A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					EE2AAF0B1C58676900B9D24A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EE2AAEF21C58676900B9D24A;
+					};
+					EE2AAF161C58676900B9D24A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = EE2AAEF21C58676900B9D24A;
+					};
+				};
+			};
+			buildConfigurationList = EE2AAEEE1C58676900B9D24A /* Build configuration list for PBXProject "CedarBareBones" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE2AAEEA1C58676900B9D24A;
+			productRefGroup = EE2AAEF41C58676900B9D24A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE2AAEF21C58676900B9D24A /* CedarBareBones */,
+				EE2AAF0B1C58676900B9D24A /* CedarBareBonesTests */,
+				EE2AAF161C58676900B9D24A /* CedarBareBonesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE2AAEF11C58676900B9D24A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2AAF061C58676900B9D24A /* LaunchScreen.storyboard in Resources */,
+				EE2AAF031C58676900B9D24A /* Assets.xcassets in Resources */,
+				EE2AAF011C58676900B9D24A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2AAF0A1C58676900B9D24A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2AAF151C58676900B9D24A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01CEDA0F95EDBE7791BE0BDB /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CedarBareBones/Pods-CedarBareBones-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1C0E632B4A78D9CACE26D06B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		32F969FA8B3A6784399DC969 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6EFA9427F4EAAD2C6A83C7C5 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CedarBareBonesTests/Pods-CedarBareBonesTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8E32B71A7E9FD1BCC03433A3 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CedarBareBonesTests/Pods-CedarBareBonesTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3C3E8BF89E9AADAA347CFC3 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BA5EE79DB6E23B990E76E6F1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CedarBareBonesUITests/Pods-CedarBareBonesUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C7ADDE318DAE3E75850C4CE7 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CedarBareBones/Pods-CedarBareBones-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE2AAEEF1C58676900B9D24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2AAEFE1C58676900B9D24A /* ViewController.m in Sources */,
+				EE2AAEFB1C58676900B9D24A /* AppDelegate.m in Sources */,
+				EE2AAEF81C58676900B9D24A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2AAF081C58676900B9D24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2AAF301C586B7500B9D24A /* AppDelegateSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE2AAF131C58676900B9D24A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE2AAF311C586B7500B9D24A /* AppDelegateSpec.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE2AAF0E1C58676900B9D24A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2AAEF21C58676900B9D24A /* CedarBareBones */;
+			targetProxy = EE2AAF0D1C58676900B9D24A /* PBXContainerItemProxy */;
+		};
+		EE2AAF191C58676900B9D24A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE2AAEF21C58676900B9D24A /* CedarBareBones */;
+			targetProxy = EE2AAF181C58676900B9D24A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE2AAEFF1C58676900B9D24A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2AAF001C58676900B9D24A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE2AAF041C58676900B9D24A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE2AAF051C58676900B9D24A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE2AAF1E1C58676900B9D24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE2AAF1F1C58676900B9D24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE2AAF211C58676900B9D24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 26F041EC421DACC1C026E0B0 /* Pods-CedarBareBones.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CedarBareBones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ri.CedarBareBones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EE2AAF221C58676900B9D24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0D09509AA8E1B51B0F0D187 /* Pods-CedarBareBones.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CedarBareBones/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ri.CedarBareBones;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EE2AAF241C58676900B9D24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 572F06B8C57BB89E78778ECB /* Pods-CedarBareBonesTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CedarBareBonesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ri.CedarBareBonesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedarBareBones.app/CedarBareBones";
+			};
+			name = Debug;
+		};
+		EE2AAF251C58676900B9D24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6B26B8D4884205D68933173 /* Pods-CedarBareBonesTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CedarBareBonesTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ri.CedarBareBonesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CedarBareBones.app/CedarBareBones";
+			};
+			name = Release;
+		};
+		EE2AAF271C58676900B9D24A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33B9397D44D83873EB5A67C6 /* Pods-CedarBareBonesUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CedarBareBonesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ri.CedarBareBonesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CedarBareBones;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EE2AAF281C58676900B9D24A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A381C82E0D3943B0E14D820B /* Pods-CedarBareBonesUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = CedarBareBonesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ri.CedarBareBonesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CedarBareBones;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE2AAEEE1C58676900B9D24A /* Build configuration list for PBXProject "CedarBareBones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2AAF1E1C58676900B9D24A /* Debug */,
+				EE2AAF1F1C58676900B9D24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2AAF201C58676900B9D24A /* Build configuration list for PBXNativeTarget "CedarBareBones" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2AAF211C58676900B9D24A /* Debug */,
+				EE2AAF221C58676900B9D24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2AAF231C58676900B9D24A /* Build configuration list for PBXNativeTarget "CedarBareBonesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2AAF241C58676900B9D24A /* Debug */,
+				EE2AAF251C58676900B9D24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE2AAF261C58676900B9D24A /* Build configuration list for PBXNativeTarget "CedarBareBonesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE2AAF271C58676900B9D24A /* Debug */,
+				EE2AAF281C58676900B9D24A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE2AAEEB1C58676900B9D24A /* Project object */;
+}
